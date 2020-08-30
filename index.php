@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="icon" href="https://pbs.twimg.com/profile_images/1244325575659061249/YjvhVutG_400x400.jpg" type="image/gif" sizes="16x16">
+
+<body>
+    
+
+
 <form>   
 <input type="file" name="" id="file-input"  class="class1"  /><br />
 <div class="class2">Download</div>
@@ -55,29 +68,22 @@ cursor:pointer ;
 }
 .class3 
 {
-    top:150px;
-    padding-left:30px; 
-    padding-right:30px; 
-    width:300px; 
-    left:0 ; 
-    padding-top:10px; 
-    padding-bottom:10px; 
-    margin-left:20px; 
-    background-color: #a7c1a3;
-    color:white; 
-    text-shadow:1px 1px 1px grey ;  
-    font-size:3em;
+ margin-top:50px;
+ width: 300px;
+ padding: 15px;
+ background-color: #00c4f6 ; 
+ border:1px solid rgba(0,0,0,0);
+ color: white;
+ text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 .class4 
 {
-    top:300px;
-    background-color: #00c9f6 ; 
-    color:white;
-    text-shadow:1px 1px 1px grey ; 
-    padding-left:20px; 
-    padding-right:20px ; 
-    padding-top:10px; 
-    padding-bottom:15px;
+    background-color: #00c4f6 ; 
+    color: white;
+ text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+
+    padding: 15px;
+    margin-top: 120px;
 }
 a 
 {
@@ -112,3 +118,5 @@ a
 
 </style>
 <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+</body>
+</html>
