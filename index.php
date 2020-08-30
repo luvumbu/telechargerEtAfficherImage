@@ -1,12 +1,9 @@
-<form>
-
-   
+<form>   
 <input type="file" name="" id="file-input"  class="class1"  /><br />
 <div class="class2">Download</div>
 <input type="submit" value="Envoyer" id="submit-button" class="class3" onclick="disip()" />
 </form>
 <div id="encours">Telechargement en cours </div>
-
 <script>
 function disip() 
 {
