@@ -1,5 +1,5 @@
 <?php
-
+session_start() ; 
 function decode_chunk($data) {
     $data = explode(';base64,', $data);
 
@@ -16,7 +16,44 @@ function decode_chunk($data) {
 }
 
 // $file_path: fichier cible: garde le même nom de fichier, dans le dossier uploads
-$file_path = 'uploads/' . $_POST['file'];
+
+
+
+
+
+
+
+
+
+
+$test =$_POST['file'] ; 
+ 
+$total = "" ; 
+for($i=strlen($test)-1;$i>0;$i--){
+  //  echo $test[$i].'<br/>' ; 
+$total = $total.$test[$i] ; 
+    if($test[$i]=="."){
+        break ; 
+    }
+
+}
+
+
+ 
+
+
+$total = strrev($total) ; 
+
+
+
+
+
+
+
+
+
+
+$file_path = 'uploads/' . $_SESSION["name"].$total;
 $file_data = decode_chunk($_POST['file_data']);
 
 if (false === $file_data) {
